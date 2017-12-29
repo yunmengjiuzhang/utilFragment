@@ -3,7 +3,7 @@ package wangfei.util.global;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import wangfei.util.global.BaseApp;
+import wangfei.util.BaseApp;
 
 /**
  * 存储临时变量

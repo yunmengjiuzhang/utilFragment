@@ -1,4 +1,4 @@
-package wangfei.util.global;
+package wangfei.util;
 
 import android.app.Application;
 

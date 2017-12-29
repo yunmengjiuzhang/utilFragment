@@ -10,6 +10,7 @@ import android.util.Log;
 import java.io.Closeable;
 import java.io.IOException;
 
+import wangfei.util.BaseApp;
 import wangfei.util.R;
 
 public final class BeepManager implements MediaPlayer.OnErrorListener, Closeable {

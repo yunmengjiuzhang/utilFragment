@@ -5,7 +5,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import wangfei.util.global.BaseApp;
+import wangfei.util.BaseApp;
 
 public class AppUtils {
     //版本名

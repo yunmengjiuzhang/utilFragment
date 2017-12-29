@@ -3,8 +3,7 @@ package wangfei.util.global;
 import android.content.Context;
 import android.widget.Toast;
 
-import wangfei.util.global.BaseApp;
-import wangfei.util.global.ThreadUtils;
+import wangfei.util.BaseApp;
 
 public class ToastUtils {
     private static Toast toast;
