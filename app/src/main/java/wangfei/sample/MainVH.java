@@ -12,7 +12,8 @@ public class MainVH {
     public void onClick(View view) {
 //        BeepManager.getInstance().lalala();
 //        MediaUtil.getInstance().initMediaPlayer(R.raw.lalala).play();
-        BeepManager.getInstance().beep();
+//        BeepManager.getInstance().beep();
+        BeepManager.getInstance().vibrate(400);
 
     }
 }
