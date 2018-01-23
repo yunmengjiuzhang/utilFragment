@@ -28,8 +28,8 @@ import java.util.Map;
 @SuppressLint("SimpleDateFormat")
 public class CrashHandler implements UncaughtExceptionHandler {
 
-    public static String TAG = "MyCrash";
-    public static String FileName = "brake_crash";
+    public static String TAG = "CrashHandler";
+    public static String FileName = "crashFileName";
     // 系统默认的UncaughtException处理类
     private UncaughtExceptionHandler mDefaultHandler;
 
