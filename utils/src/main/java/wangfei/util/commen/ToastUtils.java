@@ -1,4 +1,4 @@
-package wangfei.util.global;
+package wangfei.util.commen;
 
 import android.content.Context;
 import android.widget.Toast;

@@ -1,4 +1,4 @@
-package wangfei.util.global;
+package wangfei.util.store;
 
 import android.content.Context;
 import android.content.SharedPreferences;

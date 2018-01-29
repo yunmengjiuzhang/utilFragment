@@ -3,7 +3,7 @@ package wangfei.sample;
 import android.databinding.ObservableField;
 import android.view.View;
 
-import wangfei.util.global.BeepManager;
+import wangfei.util.commen.BeepManager;
 
 public class MainVH {
 
