@@ -8,7 +8,6 @@ import android.view.View;
 import wangfei.util.BaseApp;
 
 /**
- * wf
  * 主要用于上下问的获取,资源文件的获得,数组的获得
  */
 public class UIUtils {
