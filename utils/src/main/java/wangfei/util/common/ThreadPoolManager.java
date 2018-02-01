@@ -1,4 +1,4 @@
-package wangfei.util.commen;
+package wangfei.util.common;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
