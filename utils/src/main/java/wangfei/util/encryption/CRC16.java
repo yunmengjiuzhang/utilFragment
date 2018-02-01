@@ -2,7 +2,6 @@ package wangfei.util.encryption;
 
 /**
  * CRC16相关计算
- * <p>
  * encode: utf-8
  */
 public class CRC16 {
