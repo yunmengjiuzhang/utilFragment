@@ -12,48 +12,39 @@ import wangfei.util.BaseApp;
  */
 public class UIUtils {
     /**
-     * 根据资源id 获取字符串数组
-     *
-     * @param id
-     * @return
+     * @param id 资源id
+     * @return 获取字符串数组
      */
     public static String[] getStringArray(int id) {
         return getResources().getStringArray(id);
     }
 
     /**
-     * 获取Resources对象
-     *
-     * @return
+     * @return 获取Resources对象
      */
     public static Resources getResources() {
         return getContext().getResources();
     }
 
     /**
-     * 获取上下文对象
-     *
-     * @return
+     * @return 获取上下文对象
      */
     public static Application getContext() {
         return BaseApp.getInstance();
     }
 
     /**
-     * xml --->View对象
-     *
      * @param id
-     * @return
+     * @return xml --->View对象
      */
     public static View inflate(int id) {
         return View.inflate(UIUtils.getContext(), id, null);
     }
 
     /**
-     * 获取dimens
      *
      * @param id
-     * @return
+     * @return 获取dimens
      */
     public static int getDimens(int id) {
         return getResources().getDimensionPixelSize(id);
