@@ -1,4 +1,4 @@
-package wangfei.util.fragmentations;
+package wangfei.util.fragmentation;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
