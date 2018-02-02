@@ -1,4 +1,4 @@
-package wangfei.util.encryption;
+package wangfei.util.encry;
 
 /**
  * CRC16相关计算
