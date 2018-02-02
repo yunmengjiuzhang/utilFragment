@@ -1,4 +1,4 @@
-package wangfei.util.fragmentations;
+package wangfei.util.fragmentation;
 
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
