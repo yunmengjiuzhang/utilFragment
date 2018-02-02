@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import me.yokeyword.fragmentation_swipeback.SwipeBackFragment;
 
-public abstract class BaseF extends SwipeBackFragment {
+public abstract class BaseFragmentSwipeBack extends SwipeBackFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

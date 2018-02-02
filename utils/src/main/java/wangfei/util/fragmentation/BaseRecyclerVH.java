@@ -5,12 +5,14 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.List;
 
-public class BaseRecyclerFVH extends RecyclerView.ViewHolder {
+import me.yokeyword.fragmentation.SupportFragment;
+
+public class BaseRecyclerVH extends RecyclerView.ViewHolder {
 
     private ViewDataBinding binding;
-    protected BaseF mCtx;
+    protected SupportFragment mCtx;
 
-    public BaseRecyclerFVH(ViewDataBinding binding, BaseF ctx) {
+    public BaseRecyclerVH(ViewDataBinding binding, SupportFragment ctx) {
         super(binding.getRoot());
         this.binding = binding;
         mCtx = ctx;

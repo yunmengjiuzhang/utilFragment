@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-public abstract class BaseRecyclerAdapterF<V> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public abstract class BaseRecyclerAdapter<V> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    public BaseRecyclerAdapterF(List<V> list) {
+    public BaseRecyclerAdapter(List<V> list) {
         mValueList = list;
     }
 
@@ -32,8 +32,8 @@ public abstract class BaseRecyclerAdapterF<V> extends RecyclerView.Adapter<Recyc
     @Override
     @SuppressWarnings("unchecked")//一定会是BaseViewHolder的子类，因为createViewHolder()的返回值
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        ((BaseRecyclerFVH) holder).initDatas(mValueList, position);
-        ((BaseRecyclerFVH) holder).getBinding().executePendingBindings();
+        ((BaseRecyclerVH) holder).initDatas(mValueList, position);
+        ((BaseRecyclerVH) holder).getBinding().executePendingBindings();
     }
 
     @Override
