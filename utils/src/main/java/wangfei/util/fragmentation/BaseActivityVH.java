@@ -2,10 +2,10 @@ package wangfei.util.fragmentation;
 
 import android.view.View;
 
-public abstract class BaseAVH {
-    public BaseA mCtx;
+public abstract class BaseActivityVH {
+    public BaseActivity mCtx;
 
-    public BaseAVH(BaseA ctx) {
+    public BaseActivityVH(BaseActivity ctx) {
         mCtx = ctx;
     }
 
