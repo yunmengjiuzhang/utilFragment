@@ -29,7 +29,6 @@ public class ToastUtils {
         });
     }
 
-
     public static void showToast(String text) {
         showToast(BaseApp.getInstance(), text);
     }
