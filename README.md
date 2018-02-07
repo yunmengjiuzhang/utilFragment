@@ -14,9 +14,8 @@
         }
     2.module的build.gradle
 
-         compile 'com.github.wangfeixixi:util:v1.3'//添加依赖，点击下边连接获取最新版本号
-     
-         [![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
+             compile 'com.github.wangfeixixi:util:v1.3'//添加依赖，点击下边连接获取最新版本号
+             [![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
         
         
     3.manifest文件添加
