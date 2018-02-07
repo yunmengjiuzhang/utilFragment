@@ -6,9 +6,9 @@ import me.yokeyword.fragmentation.SupportFragment;
 
 public class BaseFragmentVH {
 
-    public SupportFragment mCtx;
+    public BaseFragment mCtx;
 
-    public BaseFragmentVH(SupportFragment ctx) {
+    public BaseFragmentVH(BaseFragment ctx) {
         mCtx = ctx;
     }
 
