@@ -14,18 +14,15 @@
         }
     2.module的build.gradle
 
-         compile 'com.github.wangfeixixi:util:v1.3'//添加依赖
+         compile 'com.github.wangfeixixi:util:v1.3'//添加依赖 [![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
         
     3.manifest文件添加
          <application
-            android:name="wangfei.util.BaseApp"
-    4.启动闪屏界面添加
-        new BaseInit();//可复写方法，初始化方法到自己app
-        
+            android:name="wangfei.util.BaseApp"        
     
 完工体验：
 
 如果觉得好请给我点赞哈！
 
 如果需要进一步交流，邮件哦：xuanyuanxixi@foxmail.com
-[![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
+
