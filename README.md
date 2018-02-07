@@ -14,7 +14,10 @@
         }
     2.module的build.gradle
 
-         compile 'com.github.wangfeixixi:util:v1.3'//添加依赖
+         compile 'com.github.wangfeixixi:util:v1.3'//添加依赖，点击下边连接获取最新版本号
+     
+         [![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
+        
         
     3.manifest文件添加
          <application
@@ -26,4 +29,4 @@
 
 如果需要进一步交流，邮件哦：xuanyuanxixi@foxmail.com
 
- [![](https://jitpack.io/v/wangfeixixi/util.svg)](https://jitpack.io/#wangfeixixi/util)
+
