@@ -40,7 +40,6 @@ dependencies {
 
     // appcompat-v7包是必须的
     compile 'me.yokeyword:fragmentation:1.2.5'
-
 // 如果不想继承SupportActivity/Fragment，自己定制Support，可仅依赖:
 // compile 'me.yokeyword:fragmentation-core:1.2.5'
 
