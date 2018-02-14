@@ -28,7 +28,6 @@ android {
 }
 
 dependencies {
-    //recyclerview的itemview的binding
     compile 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.1.0'
     compile 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.1.0'
 //    implementation fileTree(dir: 'libs', include: ['*.jar'])
