@@ -16,7 +16,6 @@ public class ThreadUtils {
      * @param runnable
      */
     public static void runOnBackThread(Runnable runnable) {
-//        new Thread(runnable).start();   // 线程池
         ThreadPoolManager.getInstance().createThreadPool().execture(runnable);
     }
 

@@ -10,9 +10,6 @@ public class ToastUtils {
 
     /**
      * 静态toast
-     *
-     * @param context
-     * @param text
      */
     public static void showToast(final Context context, final String text) {
         ThreadUtils.runOnUiThread(new Runnable() {
