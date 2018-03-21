@@ -13,7 +13,8 @@ public class MainVH {
 //        BeepManager.getInstance().lalala();
 //        MediaUtil.getInstance().initMediaPlayer(R.raw.lalala).play();
 //        BeepManager.getInstance().beep();
-        BeepManager.getInstance().vibrate(400);
+
+        BeepManager.getInstance().vibrate(200);
 
     }
 }
