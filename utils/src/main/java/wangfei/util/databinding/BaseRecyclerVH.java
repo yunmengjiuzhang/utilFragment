@@ -6,8 +6,6 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.List;
 
-import wangfei.util.fragmentation.BaseFragment;
-
 public class BaseRecyclerVH extends RecyclerView.ViewHolder {
 
     private ViewDataBinding binding;

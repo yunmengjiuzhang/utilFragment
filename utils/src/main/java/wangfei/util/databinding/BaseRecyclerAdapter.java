@@ -8,8 +8,6 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import wangfei.util.fragmentation.BaseRecyclerVH;
-
 public abstract class BaseRecyclerAdapter<V> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     public BaseRecyclerAdapter(List<V> list) {
